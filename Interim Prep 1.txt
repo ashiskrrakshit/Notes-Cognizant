@@ -1,0 +1,89 @@
+what is spring framework
+-------------------------
+
+Spring is a powerful open-source, loosely coupled, lightweight, java framework meant for reducing the complexity of developing enterprise-level applications.
+This framework is also called the “framework of frameworks” as spring provides support to various other important frameworks like JSF, Hibernate, Structs,
+EJB, etc
+
+
+what is spring boot
+-------------------
+
+Spring Boot is an open-source, java-based framework that provides support for Rapid Application Development and gives a platform for developing stand-alone and production-ready spring applications with a need for very few configurations.
+
+
+
+spring boot standalone project
+------------------------------
+
+Spring Boot helps developers create applications that just run. Specifically, you can create stand-alone applications that run on their own, without relying on an external web server.
+You can create stand-alone applications by embedding a web server such as Tomcat or Netty into your app during the initialization process. As a result, you can start your application on any platform by pressing the Run command. (You can opt out of this feature to build applications without an embedded web server.)
+
+
+
+what is meant by singleton class?
+
+In object-oriented programming, a singleton class is a special type of class that allows only one instance (or object) of itself to be created. Imagine it like a unique key that opens a special door. No matter how many times you try to create a new object from a singleton class, you’ll always get the same instance that was created initially12.
+
+Here are the key points about singleton classes:
+
+Single Instance: A singleton class ensures that only one instance of itself exists throughout the entire lifetime of a program.
+Global Access: It provides a global point of access to that single instance.
+Private Constructor: The constructor of a singleton class is made private, preventing other instances from being created.
+Static Method: A public static method is used to retrieve the single instance of the class.
+
+
+
+what is ment by rapid application development
+---------------------------------------------
+Rapid Development: By automating configuration and providing starter dependencies, Spring Boot accelerates the development process, allowing developers to focus on delivering business value rather than dealing with infrastructure concerns.
+
+
+Autoconfiguration
+-----------------
+
+Autoconfiguration initializes applications with pre-set dependencies so that you don't have to configure manually. Java Spring Boot comes with built-in autoconfiguration capabilities, which automatically configure both the underlying Spring Framework and third-party packages based on your settings. This approach, based on best practices, helps avoid errors.
+
+Even though you can override these defaults after the initialization is complete, the initial setup accelerates development. Java Spring Boot's autoconfiguration feature enables you to start developing your Spring-based applications fast and reduces the possibility of human errors.
+
+
+Explain the advantages of using Spring Boot for application development
+-----------------------------------------------------------------------
+
+Certainly! **Spring Boot** is a powerful framework that simplifies Java application development. Here are some key advantages of using Spring Boot:
+
+1. **Quick and Safe Environment Configuration**:
+   - Spring Boot provides an out-of-the-box configuration, allowing developers to start building applications right away without spending time on complex 	setup¹.
+   - It eliminates the need for manual configuration, making the development process faster and more efficient.
+
+2. **Reduced Code Length and Simplified Development**:
+   - Spring Boot leverages annotations for straightforward code understanding.
+   - Boilerplate configurations are automatically generated, reducing repetitive code for common functionalities¹.
+
+3. **Efficient Testing**:
+   - Spring Boot offers a default setup for unit and integration tests.
+   - Developers can focus on delivering business value rather than dealing with infrastructure concerns⁴.
+
+4. **Autoconfiguration**:
+   - All components needed for a production-grade Spring application are automatically configured.
+   - This accelerates development and ensures a robust environment².
+
+5. **Prebuilt Embedded Servers**:
+   - Spring Boot includes embedded servers like Tomcat, Jetty, and Undertow.
+   - These servers simplify app deployment and enhance productivity².
+
+
+
+
+
+========================================================================================================================================================================================================================================================================================================================
+
+what is Normalization
+
+Normalization is the process to eliminate data redundancy and enhance data integrity in the table. Normalization also helps to organize the data in the 
+database. It is a multi-step process that sets the data into tabular form and removes the duplicated data from the relational tables.
+
+Normalization organizes the columns and tables of a database to ensure that database integrity constraints properly execute their dependencies. 
+It is a systematic technique of decomposing tables to eliminate data redundancy (repetition) and undesirable characteristics like 
+Insertion, Update, and Deletion anomalies.
+
